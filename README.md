@@ -2,7 +2,7 @@
 
 ## To-Do List 
 
-A simple and interactive To-Do List app built using HTML, CSS, and JavaScript. This project was developed as part of my internship at CodeSoft.
+A simple and interactive To-Do List app built using HTML, CSS, and JavaScript. This project was developed as part of my internship at CODXO.
 
 ## Key Features
 
@@ -25,7 +25,7 @@ A simple and interactive To-Do List app built using HTML, CSS, and JavaScript. T
 
 ## Tribute Page
 
-A simple and elegant tribute page built using HTML and CSS. This project was developed as part of my internship at CodeSoft.
+A simple and elegant tribute page built using HTML and CSS. This project was developed as part of my internship at CODXO.
 
 ## Key Features
 
