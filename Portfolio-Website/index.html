@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/80068f436a.js" crossorigin="anonymous"></script>
+
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <!--======================== Header ===========================-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="title"><span>Portfolio</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <div class="header-col-1">
+                    <p><span><b> Hello! </b></span></p>
+                    <h1>My name is <span>Sidra</span> <br> and I'm a passionate <br> 
+                    <span id="element"> </span></h1>
+                </div>
+                <div class="header-col-2">
+                    <img src="images/download__2_-removebg-preview.png" alt="Portfolio-Img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--======================== About ===========================-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/image-3-removebg-preview.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span>About Me</span></h1>
+                    <p>My name is Sidra and I'm a passionate Web Developer. I've done Bachelor of Science in Computer Science (BSCS) from Virtual University of Pakistan. I'm skilled in HTML, CSS and JavaScript, along with expertise in React.js for front-end development. With my diverse skill set, I'm well-prepared to tackle complex projects and make meaningful contributions in the field of Computer Science.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span><b>Web Designer</b></span><br>Designing Web interface</li>
+                            <li><span><b>Web Developer</b></span><br>Web app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span><b>10 May 2024 - current</b></span><br>Web Development Intern at CodeSoft</li>
+                            <li><span><b>April 2024 - May 2024</b></span><br>Web Development Intern at BehinDev</li>
+                            <li><span><b>April 2022 - May 2022</b></span><br>Computer Science Teacher at Cadet College</li>
+                            <li><span><b>March 2021 - June 2021</b></span><br>Computer Science & Math Teacher at APS</li>
+                            <li><span><b>May 2018 - Oct 2018</b></span><br>Teacher at MGMS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><b>2023</b></span><br>Web Development Course from MDF</li>
+                            <li><span><b>2021 - 2024</b></span><br>BSCS from Virtual University of Pakistan</li>
+                            <li><span><b>2018 - 2021</b></span><br>BSc from University of the Punjab</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--======================== Services ===========================-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"><span>My Services</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2><b>Web Designing</b></h2>
+                    <p>We craft beautiful, user-centric websites that reflect your brand's identity and engage your audience. Our designs are responsive, ensuring a seamless experience on any device. By prioritizing aesthetics and usability, we help you leave a lasting impression on your visitors.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-web-awesome"></i>
+                    <h2><b>Web Development</b></h2>
+                    <p>We build robust, scalable websites and applications tailored to your specific needs, ensuring optimal performance and seamless user experience across all devices. With cutting-edge technology and best practices, we deliver custom solutions that drive growth and efficiency.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--======================== Portfolio ===========================-->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title"><span>My Work</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/message-pp3.jpg" alt="Messaging-App">
+                    <div class="layer">
+                        <h3><b>Messaging-app</b></h3>
+                        <p>The app connect you to the talented people around the world.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/busbooking-3.jpg" alt="Bus-Booking">
+                    <div class="layer">
+                        <h3><b>Online Bus-Booking & Ticketing System</b></h3>
+                        <p>The system will help you to secure your bus seat for your next journey at your home.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/appiance-02.webp" alt="Online-Appliance">
+                    <div class="layer">
+                        <h3><b>Online Electronic Appliance Shopping</b></h3>
+                        <p>The store will help you to buy electronic appliances at your home.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!--======================== Contact ===========================-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"><span>Contact Me</span></h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>sidraabbasi478@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i>+923225520325</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/Sidra (Web Developer).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Sidra. Made with <i class="fa-sharp fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <!--=================== Java Script Link ======================-->
+    <script src="script.js"></script>
+</body>
+</html>
